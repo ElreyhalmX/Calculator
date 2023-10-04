@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+/* Style for the body of the page */
+body {
+    min-height: 100vh;
+    background:#A569BD;
+    display: grid;
+    place-items: center;
+}
+/* Style for the main calculator container */
+.calculadora {
+    background-color: #4A235A;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius:1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+/* Style for the calculator display screen */
+.pantalla {
+    grid-column: 1 / -1;
+    background: #A569BD;
+    border-radius: 5px;
+    padding: 1.7rem;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight:600 ;    
+}
+/* Style for calculator buttons */
+.btn{
+    background-color:#4A235A ;
+    color:white;
+    border: 0;
+    padding:1.5rem .5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:.5rem;
+    cursor:pointer;
+}
+/* Style for button hover state */
+.btn:hover{
+    background-color:#17202A  ;
+}
+/* Style for the 'cero' button spanning 2 columns */
+#cero{
+    grid-column: span 2;
+}
+/* Style for the 'igual' button spanning 2 rows with a different background color */
+#igual{
+    grid-row: span 2;
+    background-color:#E74C3C;
+}
+/* Style for 'igual' button hover state */
+#igual:hover{
+    background-color:#EC7063   ;
+}
+/* Define a keyframe animation 'fade-in' */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+/* Style for the 'p' element */
+  p{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: .5rem;
+    color: #E74C3C;
+    font-weight: 600;
+    animation: fade-in 2s ease-in-out ;
+
+}
