@@ -3,7 +3,8 @@ This program is a simple calculator web page that allows users to perform basic 
 
 
 # Demo
-![CALCULADORA DEMO](https://github.com/ElreyhalmX/Calculator/assets/87812364/7930f52c-cbbe-475c-8a73-5118e94a707f)
+
+
 
 # About
 GitHub Copilot: Sure, here's a documentation of the code you provided:
