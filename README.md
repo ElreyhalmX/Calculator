@@ -30,4 +30,4 @@ The JavaScript file (`script.js`) contains the logic for the calculator. Here's 
 - `if (botonApretado==="="){...})`: This block of code handles the "=" button, which evaluates the expression on the calculator display.
 - `if (pantalla.textContent==="0" || pantalla.textContent==="Error!"){...}`: This block of code handles input of numbers and operators. If the display is currently "0" or "Error!", the input replaces the display. Otherwise, the input is appended to the display.
 
-I hope this documentation helps! Let me know if you have any other questions.
+I hope this documentation helps! 
