@@ -9,7 +9,6 @@ https://github.com/ElreyhalmX/Calculator/assets/87812364/a223242a-4811-4f83-9864
 
 
 # About
-GitHub Copilot: Sure, here's a documentation of the code you provided:
 
 ## HTML
 
